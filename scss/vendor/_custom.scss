@@ -1,0 +1,21 @@
+// Bootstrap overrides
+
+// Override colors
+
+$green:   #3F5047;
+$white:  #F6F6F4;
+$beige: #F1E9E6;
+
+
+$theme-colors: (
+  primary: $green,
+  secondary: $beige
+  );
+
+// Disable rounded corners for btn
+$enable-rounded: false;
+
+
+// Body
+$body-bg:       $white;
+$body-color:    $green;

@@ -1,0 +1,22 @@
+footer {
+  margin-top: 4em;
+  background: $beige;
+  padding: 2em 0 1.5em;
+  color: $green;
+  text-align: center;
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+
+  ul.list-inline {
+    @include media-breakpoint-up(md) {
+      text-align: right;
+    }
+  }
+
+  a {
+    font-size: 1.2em;
+    color: $green;
+    margin-left: 1em;
+  }
+}
